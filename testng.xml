@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="testng.xml">
+    <classes>
+      <!-- <class name="com.request.TC005_Delete_ById_User"/> -->
+      <class name="com.request.TC003_Post_New_User"/>
+      <class name="com.request.TC002_Get_ById_User"/>
+      <class name="com.request.TC001_Get_All_Users"/>
+      <class name="com.request.TC004_Put_New_User"/>
+    </classes>
+  </test> <!-- testng.xml -->
+</suite> <!-- Suite -->
